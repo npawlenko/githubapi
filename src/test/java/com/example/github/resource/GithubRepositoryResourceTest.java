@@ -1,4 +1,4 @@
-package com.example;
+package com.example.github.resource;
 
 import com.example.github.resource.dto.ErrorResponse;
 import com.example.github.resource.dto.RepositoryDTO;
@@ -14,7 +14,7 @@ import static org.hamcrest.Matchers.not;
 import static org.hamcrest.Matchers.notNullValue;
 
 @QuarkusTest
-class GithubResourceTest {
+class GithubRepositoryResourceTest {
 
 	@Test
 	void testGetNotForkedUserRepos_Success() {
